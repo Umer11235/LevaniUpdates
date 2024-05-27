@@ -1,0 +1,33 @@
+.slide-button .active {
+
+    background: #F37832;
+    color: #FFF;
+}
+
+.slide-button  {
+    overflow: auto;
+}
+.slide-button button {
+    margin-right: 6px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 26px;
+    color: #F37832;
+    border: 1px solid #E8DAD0;
+    width: fit-content;
+    text-wrap: nowrap;
+    background: #FFFBF6;
+ 
+}
+
+.slide-button {
+    display: flex;
+
+}
+
+.slide-button::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,24 @@
+
+body .button-payment:hover,body .button-payment:active,body .button-payment:focus-visible {
+    background-color: #FFF!important;
+}
+.button-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px!important;
+    border: 1px solid #BCBCBC !important;
+    padding: 18px;
+    background: #FFF !important;
+
+
+}
+.btn-pay-title{
+    color: #746758;
+
+ font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 19.5px; /* 139.286% */
+margin-left: 12px;
+}

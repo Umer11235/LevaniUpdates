@@ -1,0 +1,92 @@
+.navbar {
+  padding: 20px 60px;
+  background: white;
+}
+
+.navbar-brand span {
+  position: relative;
+  top: -3px;
+  margin-right: 12px;
+}
+.navbar-brand {
+   
+  color: var(--pri-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.nav-link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.nav-link span {
+  border-radius: 30px;
+  background: #D5304E;
+  color: #FFF;
+  margin-left: 10px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.nav-link.active,.nav-item .nav-link  {
+  color: var(--pri-color) !important;
+  font-weight: 700;
+
+}
+
+.navbar-nav {
+  max-width: 696px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
+.dropdown-menu {
+  background: white;
+  text-align: center;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 10px #0000003b;
+  border-radius: 10px;
+  overflow: hidden;
+  left: -77px;
+
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-item {
+  border-bottom: 2px solid lightgray;
+}
+
+.dropdown-item:hover {
+  background-color: var(--pri-color);
+  color: white;
+}
+
+ .navbar-toggler:focus-visible{
+  border-radius: 2px;
+ }
+ .navbar-toggler:active,.navbar-toggler:focus{
+  box-shadow: none;
+ }
+ .navbar-toggler{
+border: none;
+ }
+
+
+ @media screen and (max-width: 991px) {
+  .navbar{
+    padding: 20px 10px;
+  }
+}

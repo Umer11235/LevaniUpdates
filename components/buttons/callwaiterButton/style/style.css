@@ -1,0 +1,17 @@
+.waiter-button span {
+    margin-right: 10px;
+}
+.waiter-button {
+    width: 100%;
+    background: #FFF;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #F37832;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    box-shadow: 0px 373px 105px 0px rgba(0, 0, 0, 0.00), 0px 239px 96px 0px rgba(0, 0, 0, 0.01), 0px 134px 81px 0px rgba(0, 0, 0, 0.02), 0px 60px 60px 0px rgba(0, 0, 0, 0.03), 0px 15px 33px 0px rgba(0, 0, 0, 0.04), 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
+}

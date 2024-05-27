@@ -1,0 +1,29 @@
+.search-bar-parent input::placeholder {
+    color: #7D746C;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.search-bar-parent {
+    display: flex;
+    border-radius: 12px;
+    border: 2px solid #F37832;
+    background: #FFF;
+    box-shadow: 0px 119px 33px 0px rgba(23, 94, 160, 0.00), 0px 76px 31px 0px rgba(23, 94, 160, 0.01), 0px 43px 26px 0px rgba(23, 94, 160, 0.02), 0px 19px 19px 0px rgba(23, 94, 160, 0.04), 0px 5px 11px 0px rgba(23, 94, 160, 0.05), 0px 0px 0px 0px rgba(23, 94, 160, 0.05);
+}
+
+.search-bar-parent .form-control{
+    border: none;
+    border-radius: 0px;
+    width: calc(100% - 50px)
+}
+.search-bar-parent .form-control:active,.form-control:active:focus-visible {
+   
+  box-shadow: none;
+  outline: 0px;  
+}
+
+.search-bar-parent .form-control {
+    border: none;
+}

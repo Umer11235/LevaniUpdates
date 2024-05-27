@@ -1,0 +1,16 @@
+.heading-table-main   .strong{
+   font-weight: 600;
+}
+.heading-table-main {
+   display: flex;
+   justify-content: space-between;
+   margin: 14px 0px;
+}
+.heading-table-main h4{
+   color: #23292E; 
+font-family: Quicksand;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.2px; /* 106.667% */
+}

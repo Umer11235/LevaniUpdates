@@ -1,0 +1,48 @@
+ .dishes-card h4 {
+     color: #979797;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 19.5px;
+     margin-bottom: 4px;
+ }
+
+ .dishes-card h3 {
+     color: #434343;
+     margin-bottom: 4px;
+     font-feature-settings: 'case' on;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 125%;
+     /* 17.5px */
+ }
+
+ .dishes-card {
+     width: 100%;
+     border-radius: 12px;
+     border: 1px solid #F6E9DF;
+     max-width: 166px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+     box-shadow: 0px 206px 58px 0px rgba(177, 159, 149, 0.00), 0px 132px 53px 0px rgba(177, 159, 149, 0.01), 0px 74px 45px 0px rgba(177, 159, 149, 0.05), 0px 33px 33px 0px rgba(177, 159, 149, 0.09), 0px 8px 18px 0px rgba(177, 159, 149, 0.10);
+ }
+
+ .dishes-card-inner-img img {
+     width: 166px;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+     height: 100px;
+     object-fit: cover;
+ }
+
+ .dishes-card-inner-img {
+     position: relative;
+
+ }
+
+ @media screen and (max-width: 376px) {
+    .dishes-card{
+        margin-right: 3px;
+    }
+  }
