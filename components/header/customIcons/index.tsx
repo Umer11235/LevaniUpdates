@@ -451,6 +451,60 @@ case 'location':
     </svg>
   );
 
+  case 'pen':
+    return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="none"
+      viewBox="0 0 16 16"
+    >
+      <g clipPath="url(#clip0_1_753)">
+        <path
+          stroke="#F37832"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M11.333 2a1.898 1.898 0 011.376-.671 1.912 1.912 0 011.427.555 1.885 1.885 0 01.55 1.421A1.877 1.877 0 0114 4.667l-9 9-3.667 1 1-3.667 9-9z"
+        ></path>
+      </g>
+      <defs>
+        <clipPath id="clip0_1_753">
+          <path fill="#fff" d="M0 0H16V16H0z"></path>
+        </clipPath>
+      </defs>
+    </svg>
+  );
+
+  
+  case 'loacted':
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="none"
+        viewBox="0 0 16 16"
+      >
+        <g
+          stroke="#D5304E"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          clipPath="url(#clip0_1_765)"
+        >
+          <path d="M1.333 8h2M12.667 8h2M8 1.333v2M8 12.667v2M8 12.667a4.667 4.667 0 100-9.334 4.667 4.667 0 000 9.334z"></path>
+          <path d="M8 10a2 2 0 100-4 2 2 0 000 4z"></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_1_765">
+            <path fill="#fff" d="M0 0H16V16H0z"></path>
+          </clipPath>
+        </defs>
+      </svg>
+    );
+
 
   }
 

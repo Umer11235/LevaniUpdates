@@ -95,30 +95,41 @@ export default function Home() {
 
 </div>
 
+
+
 <div className="pickup_Details1">
-<ul>
-              <li className="pickup_Details1_li">
+
+
+<div>
+
+              <span className="pickup_Details1_li">
                 <Icons icon="watch" />
-              </li>
-              <li></li>
-              <li className="pickup_Details1_li">Pick up in 15 mins</li>
-              <li></li>
-              <li className="pickup_Details1_l">Change</li>
-            </ul>
+              </span>
+            
+              <p className="pickup_Details1_li">Pick up in 15 mins</p>
+              </div>
+
+              <p className="pickup_Details1_l"><Icons icon="pen"/> Change</p>
+            
 </div>
+
+
 
 
 <div className="pickup_Details2">
 
-<ul>
-              <li className="pickup_Details2_li">
+
+<div>
+
+              <span className="pickup_Details2_li">
                 <Icons icon="location" />
-              </li>
-              <li></li>
-              <li className="pickup_Details2_li">Street 14, West ridge</li>
-              <li></li>
-              <li className="pickup_Details2_l">View</li>
-            </ul>
+              </span>
+            
+              <p className="pickup_Details2_li">Street 14, West ridge</p>
+              </div>
+
+              <p className="pickup_Details2_l"><Icons icon="loacted"/> View</p>
+            
 </div>
 
 
